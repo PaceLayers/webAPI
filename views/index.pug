@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  ul
+    li 
+      a(href="/masterApi/ApplLayerState") All Applications Layer State  
+    li 
+      a(href="/masterApi/portfolios") All Portfolios  
+    //- li 
+    //-   a(href="/masterApi/applications/1") BProcess for 1  
+    li 
+      a(href="/masterApi/BProcess") All Business Process  
+    li 
+      a(href="/masterApi/GetSupports") All Supports Answer 
+    li 
+      a(href="/masterApi/ApplLayerStateID/1")  Applications for 1st Layer State       
+    li 
+      a(href="/masterApi/applications/1") Applications for 1st Portfolio
